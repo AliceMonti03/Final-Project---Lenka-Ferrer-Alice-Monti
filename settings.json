@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./real_estate_toolkit/src/real_estate_toolkit/data",
+        "./real_estate_toolkit/src/real_estate_toolkit/agent_based_model"
+    ]
+}
