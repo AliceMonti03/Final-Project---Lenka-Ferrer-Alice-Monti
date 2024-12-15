@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "real-estate-toolkit"
+version = "0.1.0"
+description = "A toolkit for real estate data analysis"
+authors = ["Alice Monti <alice.monti01@estudiant.upf>", "Lenka Ferrer <lenka.ferrer01@estudiant.upf.edu>"]
+readme = "README.md"
+packages = [{include = "real_estate_toolkit", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.3"
+polars = "^1.16.0"
+plotly = "^5.24.1"
+scikit-learn = "^1.5.2"
+pandas = "^2.2.3"
+pyarrow = "^18.1.0"
+statsmodels = "^0.14.4"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
